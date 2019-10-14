@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="546625" started-at="2019-10-14T01:01:51Z" finished-at="2019-10-14T01:10:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="546625" started-at="2019-10-14T01:01:51Z" finished-at="2019-10-14T01:10:58Z">
+      <class name="GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="setup" is-config="true" duration-ms="8622" started-at="2019-10-14T01:01:51Z" finished-at="2019-10-14T01:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="VerifySigninTest()[pri:1, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="VerifySigninTest" duration-ms="40849" started-at="2019-10-14T01:02:00Z" finished-at="2019-10-14T01:02:41Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#authCredentialPassword"}
+  (Session info: chrome=75.0.3770.80)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DEVENDRAGUPTA', ip: '172.100.150.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.80, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\DEVEND~1.GUP\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d1a881fedebd7aaaa9df61f74dbf7bc
+*** Element info: {Using=id, value=authCredentialPassword}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#authCredentialPassword"}
+  (Session info: chrome=75.0.3770.80)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DEVENDRAGUPTA', ip: '172.100.150.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.80, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\DEVEND~1.GUP\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d1a881fedebd7aaaa9df61f74dbf7bc
+*** Element info: {Using=id, value=authCredentialPassword}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases.VerifySigninTest(GoibiboTestCases.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySigninTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="teardown" is-config="true" duration-ms="971" started-at="2019-10-14T01:02:41Z" finished-at="2019-10-14T01:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="setup" is-config="true" duration-ms="8688" started-at="2019-10-14T01:02:42Z" finished-at="2019-10-14T01:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyDomesticFlightTest()[pri:2, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="VerifyDomesticFlightTest" duration-ms="83886" started-at="2019-10-14T01:02:51Z" finished-at="2019-10-14T01:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDomesticFlightTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="teardown" is-config="true" duration-ms="1119" started-at="2019-10-14T01:04:15Z" finished-at="2019-10-14T01:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="setup" is-config="true" duration-ms="8174" started-at="2019-10-14T01:04:16Z" finished-at="2019-10-14T01:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyDomHotelTest()[pri:3, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="verifyDomHotelTest" duration-ms="80966" started-at="2019-10-14T01:04:24Z" finished-at="2019-10-14T01:05:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDomHotelTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="teardown" is-config="true" duration-ms="1312" started-at="2019-10-14T01:05:45Z" finished-at="2019-10-14T01:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="setup" is-config="true" duration-ms="9626" started-at="2019-10-14T01:05:46Z" finished-at="2019-10-14T01:05:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyInternationalHotelTest()[pri:4, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="VerifyInternationalHotelTest" duration-ms="77495" started-at="2019-10-14T01:05:56Z" finished-at="2019-10-14T01:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInternationalHotelTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="teardown" is-config="true" duration-ms="1186" started-at="2019-10-14T01:07:13Z" finished-at="2019-10-14T01:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="setup" is-config="true" duration-ms="10478" started-at="2019-10-14T01:07:15Z" finished-at="2019-10-14T01:07:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyBusTest()[pri:5, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="VerifyBusTest" duration-ms="66648" started-at="2019-10-14T01:07:25Z" finished-at="2019-10-14T01:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBusTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="teardown" is-config="true" duration-ms="1108" started-at="2019-10-14T01:08:32Z" finished-at="2019-10-14T01:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="setup" is-config="true" duration-ms="11702" started-at="2019-10-14T01:08:33Z" finished-at="2019-10-14T01:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyIRCTCTest()[pri:6, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="VerifyIRCTCTest" duration-ms="91656" started-at="2019-10-14T01:08:45Z" finished-at="2019-10-14T01:10:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIRCTCTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="teardown" is-config="true" duration-ms="994" started-at="2019-10-14T01:10:16Z" finished-at="2019-10-14T01:10:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="setup" is-config="true" duration-ms="9485" started-at="2019-10-14T01:10:17Z" finished-at="2019-10-14T01:10:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyCarTest()[pri:7, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="VerifyCarTest" duration-ms="30295" started-at="2019-10-14T01:10:27Z" finished-at="2019-10-14T01:10:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCarTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases@7a52f2a2]" name="teardown" is-config="true" duration-ms="1091" started-at="2019-10-14T01:10:57Z" finished-at="2019-10-14T01:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- GoibiboTestScenerio.GoibiboDweb.GoibiboTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
