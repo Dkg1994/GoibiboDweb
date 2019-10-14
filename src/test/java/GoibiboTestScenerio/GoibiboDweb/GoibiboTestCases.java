@@ -137,8 +137,8 @@ Thread.sleep(2000);
 driver.findElement(By.xpath("//*[@id=\"selectedBank\"]/option[4]")).click();
 Thread.sleep(2000);
 
-//Click on paynow button
-driver.findElement(By.xpath("//*[@id=\"nbPayNow\"]/div/button")).click();
+//Click on paynow buttonon
+driver.findElement(By.xpath("//*[@id=\"nbPayNow\"]/div/div[1]/button")).click();
 Thread.sleep(4000);
 }
      
@@ -213,7 +213,7 @@ Thread.sleep(4000);
 	driver.findElement(By.xpath("//*[@id=\"selectedBank\"]/option[7]")).click();
 	
 
-	driver.findElement(By.xpath("//*[@id=\"nbPayNow\"]/div/button")).click();
+	driver.findElement(By.xpath("//*[@id=\"nbPayNow\"]/div/div[1]/button")).click();
 
 		
 	}
@@ -401,7 +401,7 @@ Thread.sleep(4000);
     	Thread.sleep(1000);
     	driver.findElement(By.xpath("//option[contains(text(),'AXIS Bank (AXIS)')]")).click();
 
-    	driver.findElement(By.xpath("//*[@id=\"nbPayNow\"]/div/button")).click();
+    	driver.findElement(By.xpath("//*[@id=\"nbPayNow\"]/div/div[1]/button")).click();
     	Thread.sleep(5000);
         }
      
@@ -478,7 +478,7 @@ Thread.sleep(4000);
 		
 		
 		Thread.sleep(4000);
-		driver.findElement(By.xpath("//*[@id=\"nbPayNow\"]/div/button")).click();
+		driver.findElement(By.xpath("//*[@id=\"nbPayNow\"]/div/div[1]/button']")).click();
 		
         }
                        
@@ -557,7 +557,7 @@ Thread.sleep(4000);
 		driver.findElement(By.xpath("//*[@id=\"selectedBank\"]/option[6]")).click();
 		Thread.sleep(1000);
 			
-		driver.findElement(By.xpath("//*[@id=\"nbPayNow\"]/div/button")).click();
+		driver.findElement(By.xpath("//*[@id=\"nbPayNow\"]/div/div[1]/button")).click();
 		Thread.sleep(2000);
 			
         }
